@@ -6,4 +6,7 @@ from pathlib import Path
 
 def get_path():
     '''対象のエクセルファイルのディレクトリを指定する'''
-    pass
+    path = os.path.isfile
+
+    with open('temp/file.txt', 'w') as f:
+    f.write('')
